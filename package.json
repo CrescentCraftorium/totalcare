@@ -1,0 +1,23 @@
+{
+  "name": "totalcare",
+  "version": "0.0.1",
+  "description": "Total Care Dashboard Application",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app"
+  },
+  "dependencies": {
+    "express": "*",
+    "mongoose": "*",
+    "bcryptjs": "*",
+    "cors": "*",
+    "jsonwebtoken": "*",
+    "body-parser": "*",
+    "passport": "*",
+    "passport-jwt": "*"
+  },
+  "author": "James Cornelison",
+  "license": "ISC",
+  "devDependencies": {}
+}
