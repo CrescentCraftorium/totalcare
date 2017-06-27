@@ -5,6 +5,8 @@ const jwt = require('jsonwebtoken')
 const User = require('../models/user')
 const config = require('../config/database')
 
+// Replaced the wakatime-master with a legit version from github
+// AhHa, now it isays WakaTime Active .... groovy!
 // Get Users
 router.post('/userlist', (req, res, next) => {
   User.getUserList((err, users) => {

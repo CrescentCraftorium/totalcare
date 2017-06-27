@@ -16,6 +16,12 @@ mongoose.connection.on('connected', () => {
 mongoose.connection.on('error', (err) => {
   console.error(`DB Error: ${err}`)
 })
+mongoose.connection.on('open', () => {
+  console.log(`Connection open: ${config.database}`)
+})
+mongoose.connection.on('close', () => {
+  console.log(`Connection closed: ${config.database}`)
+})
 
 // Initialize Express Application
 const app = express()

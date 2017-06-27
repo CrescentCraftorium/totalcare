@@ -1,4 +1,5 @@
 module.exports = {
   database: 'mongodb://localhost:27017/totalcare',
-  secret: 'totallycaring'
+  secret: 'totallycaring',
+  something: 'some test key:value pair'
 }
