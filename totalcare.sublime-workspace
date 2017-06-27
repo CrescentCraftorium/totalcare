@@ -131,7 +131,7 @@
 			"file": "app.js",
 			"settings":
 			{
-				"buffer_size": 1815,
+				"buffer_size": 1432,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -554,15 +554,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1815,
+						"buffer_size": 1432,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								458,
-								458
+								0,
+								0
 							]
 						],
 						"settings":
